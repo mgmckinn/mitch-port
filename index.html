@@ -26,13 +26,13 @@
       <div class="collapse navbar-collapse" id="navbarExample01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">My Story</a>
+            <a class="nav-link" href="#my-story">My Story</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">My Projects</a>
+            <a class="nav-link" href="#my-projects">My Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Information</a>
+            <a class="nav-link" href="#contact-information">Contact Information</a>
           </li>
         </ul>
       </div>
@@ -42,7 +42,9 @@
 
   <!-- Jumbotron -->
   <div class=" jumbotron p-5 text-center bg-light">
-    <h1 class="mb-3">Mitchell McKinney</h1>
+    <div class="wrapper">
+      <h1 contenteditable data-heading="Folded">Folded</h1>
+    </div>
     <h4 class="mb-3">A journey from banking to web development...</h4>
 
   </div>
@@ -54,7 +56,7 @@
 
 
   <div class="card text-center">
-    <div class="card-header">My Story</div>
+    <div id="my-story" class="card-header">My Story</div>
     <div class="card-body">
       <h5 class="card-title">The journey begins...</h5>
       <p class="card-text">
@@ -70,58 +72,75 @@
       </p>
 
       <!-- Begin Grid Layout -->
-      <div class="card-header">My Portfolio</div>
-      <div class="flex container-fluid">
-      <div class="card-deck">
-        <div class="card mb-4 hoverable black darken-1 wow fadeInUp width">
-          <a href="https://github.com/gsd79/Mystery-of-Butler-Station"> <img src="./img/butlerstation.png"
-              height="300px" width="400px" alt="Mystery-of-Butler-Station"></a>
-          <div class="card-block">
-            <p class="small white-text card-para">Mystery of Butler Station</p>
-          </div>
+      <div id="my-portfolio" class="card-header">My Portfolio</div>
+      <div class="flex container<div class="row">
+      
+        <div class="col-md-6 mb-4 mb-md-0">
+      
         </div>
-        <span></span>
-        <div class="card mb-4 hoverable black darken-1 wow fadeInUp">
-          <a href="https://mgmckinn.github.io/run-buddy-1/"> <img src="./img/runbuddy.jpg" height="300px" width="400" alt="run-buddy "></a>
-
-         
-          <div class="card-block">
-            <p class="small white-text card-para">Run Buddy</p>
-          </div>
+      
+        <div class="col-md-6 mb-4 mb-md-0">
+          
         </div>
-        <span></span>
-        <div class="card mb-4 hoverable black darken-1 wow fadeInUp">
-           <a href="https://github.com/mgmckinn/create-my-team-mgm"><img src="./img/createmyteam.jpeg" height="300" width="400" alt="password-genie"></a>
-           
-          </a>
-          <div class="card-block">
-            <p class="small white-text card-para">Create My Team</p>
-          </div>
-        </div>
-
-        <span></span>
-        <div class="card mb-4 hoverable black darken-1 wow fadeInUp">
-           <a href="https://mgmckinn.github.io/mgm-password-genie-html.css.js/"><img src="./img/PWGenie.png" height="300px" width="400px" alt="password-genie"></a>
-           
-          </a>
-          <div class="card-block">
-            <p class="small white-text card-para">Password Genie</p>
-          </div>
-        </div>
-
-
-        <span></span>
-        <div class="card mb-4 hoverable black darken-1 wow fadeInUp">
-           <a href="https://github.com/gsd79/Workout-Buddy"><img src="./img/workoutbuddy.jpeg" height="300" width="400" alt="workout Buddy"></a>
-           
-          </a>
-          <div class="card-block">
-            <p class="small white-text card-para">Workout Buddy</p>
-          </div>
-        </div>
-
+      
       </div>
-      </div>
+        <div class="card-deck">
+
+          <span></span>
+          <div class="card mb-4 hoverable black darken-1 wow fadeInUp">
+            <a href="https://github.com/gsd79/Workout-Buddy"><img src="./img/workoutbuddy.jpeg" height="300" width="400"
+                alt="workout Buddy"></a>
+
+            </a>
+            <div class="card-block">
+              <p class="small white-text card-para">Workout Buddy</p>
+            </div>
+
+
+            <div class="card mb-4 hoverable black darken-1 wow fadeInUp width">
+              <a href="https://github.com/gsd79/Mystery-of-Butler-Station"><img src="./img/butlerstation.png"
+                  height="300px" width="400px" alt="Mystery-of-Butler-Station"></a>
+              <div class="card-block">
+                <p class="small white-text card-para">Mystery of Butler Station</p>
+              </div>
+            
+            <span></span>
+            <div class="card mb-4 hoverable black darken-1 wow fadeInUp">
+              <a href="https://mgmckinn.github.io/run-buddy-1/"><img src="./img/runbuddy.jpg" height="300px"
+                  width="400" alt="run-buddy "></a>
+
+
+              <div class="card-block">
+                <p class="small white-text card-para">Run Buddy</p>
+              </div>
+            
+            <span></span>
+            <div class="card mb-4 hoverable black darken-1 wow fadeInUp">
+              <a href="https://github.com/mgmckinn/create-my-team-mgm"><img src="./img/createmyteam.jpeg" height="300"
+                  width="400" alt="password-genie"></a>
+
+              </a>
+              <div class="card-block">
+                <p class="small white-text card-para">Create My Team</p>
+              </div>
+            
+
+            <span></span>
+            <div class="card mb-4 hoverable black darken-1 wow fadeInUp">
+              <a href="https://mgmckinn.github.io/mgm-password-genie-html.css.js/"><img src="./img/PWGenie.png"
+                  height="300px" width="400px" alt="password-genie"></a>
+
+              </a>
+              <div class="card-block">
+                <p class="small white-text card-para">Password Genie</p>
+              </div>
+            
+
+
+
+
+          </div>
+        </div>
 
 
         <!-- End your project here-->
@@ -130,6 +149,7 @@
         <script type="text/javascript" src="js/mdb.min.js"></script>
         <!-- Custom scripts -->
         <script type="text/javascript"></script>
+        <script src="./src/js/index.js"></script>
 </body>
 <footer class="bg-light text-center text-white">
   <!-- Grid container -->
@@ -160,13 +180,13 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <footer ="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <footer id="contact-information" class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     <h3>My Contact Information</h3>
     <strong>Name: Mitchell McKinney</strong>
     <strong>Phone Number: 812-483-9557</strong>
     <strong>Email: mgmckinn2325@me.com</strong>
 
-  <!-- Copyright -->
-</footer>
+    <!-- Copyright -->
+  </footer>
 
 </html>
